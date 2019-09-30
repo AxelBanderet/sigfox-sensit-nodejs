@@ -7,10 +7,10 @@ var app = express();
 
 const pg = require('pg');
 const pool = new pg.Pool({
-    user: 'qvqzpvkiymlniz',
-    host: 'ec2-79-125-124-30.eu-west-1.compute.amazonaws.com',
-    database: 'd9efiuecp76mro',
-    password: '5f1e6002829d8a2048b0f08b71d33c6d526975ee77f7452303a88f606a9fc954',
+    user: 'user',
+    host: 'host',
+    database: 'database',
+    password: 'password',
     port: '5432'
 });
 
